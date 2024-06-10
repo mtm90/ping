@@ -1,0 +1,13 @@
+{
+    "name": "keep-alive-service",
+    "version": "1.0.0",
+    "description": "Keep-alive service to prevent Render server from spinning down",
+    "main": "keepAlive.js",
+    "scripts": {
+      "start": "node keepAlive.js"
+    },
+    "dependencies": {
+      "https": "^1.0.0"
+    }
+  }
+  
